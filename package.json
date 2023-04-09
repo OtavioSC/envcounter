@@ -11,10 +11,13 @@
     "test": "jest",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
     "prettier": "latest",
     "turbo": "latest"
   },
