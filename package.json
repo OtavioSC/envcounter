@@ -12,7 +12,9 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "web:dev": "yarn workspace @envcounter/web run dev",
+    "landing:dev": "yarn workspace @envcounter/landing run dev"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
